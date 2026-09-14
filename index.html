@@ -55,7 +55,7 @@
         <div class="container">
           <div class="traditions-container">
             <div class="traditions-content">
-              <h2 class="traditions-title section-title">Новий формат традицій</h2>
+              <h2 class="traditions-title section-title centered">Новий формат традицій</h2>
         <p class="traditions-text">
           <span class="brand uppercase">shop bakery</span> — це пекарня, яка
           взяла все найкраще, і зберегла смак традиційної випічки та
@@ -78,14 +78,14 @@
       <!-- chefs -->
       <section class="section" id="chefs-section">
         <div class="container">
-        <h2 class="chefs-title section-title">
+        <h2 class="chefs-title section-title centered">
           Наші найкращі <span class="accent">шеф-кухарі</span>
         </h2>
         <ul>
           <li>
             <artivle>
+              <img class="chef-image" src="./images/nastya-chef.jpg" alt="nastya chef">
               <h3 class="chef-title">Настя</h3>
-              class="format-title"
               <p>Привіт, я Настя!</p>
               <p>Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.</p>
               <p>Я випічу для вас найсмачніщі вироби!</p>
@@ -93,6 +93,7 @@
           </li>
           <li>
             <artivle>
+              <img class="chef-image" src="./images/vlad-chef.jpg" alt="vlad chef">
               <h3 class="chef-title">Влад</h3>
               <p>Привіт, я Влад!</p>
               <p>
@@ -109,7 +110,13 @@
       <!-- formats -->
       <section class="section" id="formats-section">
         <div class="container">
-          <h2 class="formats-title section-title">Формати</h2>
+          <h2 class="formats-title section-title centered">Формати</h2>
+          <button class="carousel-button" type="button">
+            <svg class="carousel-arrow" width="16" height="16">
+                <use href="./images/icons.xml#icon-arrow">
+                </use>
+              </svg>
+          </button>
           <ul class="formats-list">
             <li class="formats-item">
           <article class="format-card">
@@ -148,6 +155,12 @@
           </article>
         </li>
           </ul>
+          <button class="carousel-button" type="button">
+            <svg class="carousel-arrow" width="16" height="16">
+                <use href="./images/icons.xml#icon-arrow">
+                </use>
+              </svg>
+          </button>
         </div>
       </section>
 
@@ -161,7 +174,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <div class="container">
         <nav>
         <a href="">
@@ -197,12 +210,18 @@
           </li>
           <li>
             <a href="#" target="_blank">
-              <!-- facebook icon -->
+              <svg class="address-icon" width="32" height="32">
+                <use href="./images/icons.xml#icon-facebook">
+                </use>
+              </svg>
             </a>
           </li>
           <li>
             <a href="#" target="_blank">
-              <!-- instagram icon -->
+              <svg class="address-icon" width="32" height="32">
+                <use href="./images/icons.xml#icon-instagram">
+                </use>
+              </svg>
             </a>
           </li>
         </ul>
